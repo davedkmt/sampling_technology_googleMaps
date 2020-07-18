@@ -1,0 +1,14 @@
+#map {
+    width: 800px;
+    height: 400px;
+}
+
+#marker {
+    width: 100px;
+    height: 100px;
+}
+
+.wrapper {
+    display: flex;
+    border: 1px solid black;
+}

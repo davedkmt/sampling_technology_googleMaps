@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sampling technology - Google Maps</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script type='text/javascript' src='config.js'></script>
+
+    <script src="script.js" type="text/javascript" defer></script>
+    <script 
+            const mykey = config.API_KEY;
+            async defer src="https://maps.googleapis.com/maps/api/js?key=" + mykey + "&callback=initMap"
+            type="text/javascript">
+    </script>
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+    <div id="map"></div>
+    <hr />
+    <div class="wrapper">
+        <h2>Latitude:</h2>
+        <h2 id="lat"> Loading...</h2>
+    </div>
+    <div class="wrapper">
+        <h2>Longitude:</h2>
+        <h2 id="long"> Loading...</h2>
+    </div>
+    <div class="wrapper">
+        <h2>Address:</h2>
+        <h2 id="address"> Loading...</h2>
+    </div>
+</body>
+</html>
